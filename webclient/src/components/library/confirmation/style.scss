@@ -1,0 +1,9 @@
+.confirmation{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    input{
+        margin-right: 5px;
+    }
+}

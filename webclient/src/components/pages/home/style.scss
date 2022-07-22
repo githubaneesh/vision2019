@@ -1,0 +1,45 @@
+
+html,body {
+  height: 100%;
+}
+.page-con
+{
+  height: 100vh;
+  background-image: url('../../../assets/images/home/tile_bg_home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1
+{ 
+  margin: auto;
+  position: absolute;
+  bottom: 28%;
+  left: auto;
+  width: 100%;
+  right: auto;
+  text-align: center;
+}
+
+.btn
+{
+  letter-spacing: 1px;
+  background:#3c70fffd;
+  color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 5px;
+  font-size: 10pt;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(20, 16, 16);
+
+}
+.btn:hover{
+  background-color:#4979fcfd;
+  color: white;
+  text-shadow: 2px 2px #4979fcfd;
+
+
+}
+

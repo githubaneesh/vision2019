@@ -1,0 +1,269 @@
+ *{
+   outline: transparent;
+  }
+  .registration-con{
+    background-image:url("../../../assets/images/home/title_second.jpg");    
+    height: auto;
+    min-height: 100vh;
+  }
+
+ .row_margin0{margin-right:0px;margin-left:0px; }
+
+ .form_container{
+    background: #ffffff;    
+    flex-direction: row;  
+    padding: 20px; 
+    h3{color: #006e9d;}
+    .field_item
+    {
+      margin: 20px 0px;
+      .field_label{
+        color: #5b5a5a;
+        font-weight: 900;
+        span.mandatory{
+          color: #ff0000
+        }
+      }
+      .particiants-col, .travel{
+       /* display: flex;*/
+      }
+    }
+    textarea{
+      padding: .5em;
+      line-height: 1.4;
+      background-color: #f9f9f9;
+      border: 1px solid #e5e5e5;
+      border-radius: 3px;
+      transition: .35s ease-in-out;
+    }
+    .react-datepicker-wrapper{
+      input{
+        padding: .5em;
+        line-height: 1.4;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        transition: .35s ease-in-out;
+      }
+    }
+}
+
+.nav-con{
+  float: right;
+  padding: 10px;
+}
+
+.dob_picker{
+  width:100%;
+  padding: 0.4em;    
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 3px;
+  transition: .35s ease-in-out;
+  font-size: 18px;
+  border-color: #868585;
+}
+
+.dob_picker .react-datepicker-wrapper {
+  display: block; 
+}
+
+.dob_picker .react-datepicker-wrapper .react-datepicker__input-container{
+    display: block; 
+}
+
+.dob_picker .react-datepicker-wrapper .react-datepicker__input-container input{
+  border: none;
+  width: 100%;
+  }
+
+.field_item_dob
+{
+  padding: 7px;
+}
+.field_label_dob
+{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.field_item
+{
+  padding:7px;
+}
+
+.inputWrapper {
+     
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background-image:url("../../../assets/images/registration/upload_new.png");
+  width:45px;
+  height:37px;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.fileInput 
+{
+  cursor: pointer;
+  z-index: 99;
+  opacity: 0;
+  -moz-opacity: 0;
+  width: 100%;
+  height: 30px;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+
+.upload_file
+{
+ width:100%;
+ display: flex;
+}
+
+.upload_input{ 
+  
+  width: 100%;
+  padding: 0.4em;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 3px;
+  transition: .35s ease-in-out;
+  font-size: 18px;
+  border-color: #868585;
+ 
+}
+
+.button_fileupload
+{
+    height: 37px;
+    margin-left: 5px;
+    margin-top: 0px;
+    background: #168e8e;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.75;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.form-coloumn1
+{
+width:100%;
+margin: 0px !important;
+}
+.MuiStepLabel-root
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.MuiStepIcon-root {
+  width: 50px;
+  height: 50px;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #00ce08;
+}
+.MuiButton-root{
+ // background: #168e8e !important;
+  color: white !important;;
+  margin-right: 10px !important;
+  letter-spacing: 1px;
+  background:#3c70fffd !important;;
+  color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 5px;
+  font-size: 10pt;
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(20, 16, 16);
+  width: 90px;
+  height: 30px;
+  font-weight: 900;
+}
+ 
+.dragdropUpload .drop-con > div 
+{
+  height: 100px;
+  width:80%;
+  text-align: center;
+  border: 2px solid #63b9ae;
+  border-style: dashed;
+  display: inline-block;
+
+}
+.dragdropUpload .drop-con .uploadbtn-con
+{
+   
+  width:20% !important;
+  border: 0px solid #63b9ae;
+  
+}
+.MuiStepConnector-horizontal{
+  height: 2px;
+}
+
+.upload_text_con
+{
+    font-size: 18px;
+    word-break: break-all;
+}
+.upload_file_con
+{
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    border: 0px solid;
+    font-size: 18px;
+    word-break: break-all;
+}
+.uploadbtn-con-side
+{
+  color: white;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.75;
+  border: 3px solid;
+  letter-spacing: 0.02857em;
+  background: #168e8e !important;
+  border-radius: 7px;
+
+}
+.error{color: red}
+.errorMessage{color: red;font-size: 12px}
+
+.checkbox-con{
+  width:30px;
+  height:30px;
+  margin: 7px !important;
+}
+sup{
+  font-size: 23px;
+  top: -0.1em;
+}
+ 
+.label_in
+{
+  display: block;
+}
+.MuiLinearProgress-colorPrimary {  
+  height: 10px !important;
+  border: none !important;
+}
+.MuiTypography-body2{
+  font-size: 1rem !important;
+}

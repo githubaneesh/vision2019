@@ -1,0 +1,42 @@
+@keyframes div-rotate {
+    0% { transform: rotate(  0deg) scale(0.1);}
+    100% { transform: rotate(360deg) scale(0.1);}
+}
+.rotation-animation {
+    -webkit-animation: spinner-spin  1s steps(8) infinite;
+    -moz-animation: spinner-spin  1s steps(8) infinite;
+    -o-animation: spinner-spin  1s steps(8) infinite;
+    animation: spinner-spin  1s steps(8) infinite;
+    margin-left: 5px;
+}
+@-webkit-keyframes spinner-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@-moz-keyframes spinner-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@-o-keyframes spinner-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@-ms-keyframes spinner-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes spinner-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+.button
+{
+
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    &:disabled {
+        cursor: default;
+        opacity: .5;
+        background-color: #e6e6e6
+    }
+    &.small{
+        width: 90px;
+        height: 30px; 
+    }
+    .flex{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+
+}

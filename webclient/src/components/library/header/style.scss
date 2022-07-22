@@ -1,0 +1,33 @@
+ .topImg-container
+  {
+    /*background: url(../../../assets/images/home/top_image.png);*/
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    img{
+      width: 100%;
+      &.logo{
+        min-width: 100px;
+        max-width: 160px;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        right: 24%;
+      }
+    }
+    div.logo-container{
+        width: 100%;
+       /* position: absolute;
+        top: calc(20vh);*/
+        h2{color:#4874fe}
+        .title-header{
+          text-align: center;
+        }
+    }
+    
+  }
+  svg{
+    color: #4874fe;
+  }
+   
